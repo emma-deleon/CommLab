@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(241, 207, 163, 0.654);
+}
+
+p {
+    background-color: rgba(111, 16, 16, 0.473);
+    color: rgb(228, 227, 227);
+}
+
+.box {
+    background-color: darkgrey;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#two {
+    border: 5px darkcyan dotted;
+}
+
+#three {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#three p {
+    background-color: rgb(14, 62, 46);
+}
+
+#two p {
+    display: inline;
+}
+
+#four p {
+    display: inline;
+}
+
+#five {
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.column {
+    width: 30%;
+    height: 80px;
+    display: inline-block;
+    color:aliceblue;
+    background-color: brown;
+}
+
+.column:hover {
+    background-color: aquamarine;
+    cursor: help;
+}
+
+p:hover {
+    font-style: italic;
+}

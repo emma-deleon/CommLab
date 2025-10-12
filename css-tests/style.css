@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: rgba(105, 98, 184, 0.599);
+}
+
+#main-wrapper {
+    width: 100%;
+    max-width: 700px;
+    height: 100px;
+    background-color: rgba(87, 24, 24, 0.648);
+    margin: auto;
+}
+
+#headline-wrapper {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(49, 101, 138);
+}
+
+#headline-wrapper h1 {
+    text-align: center;
+    padding: 10px;
+}
+#nav-wrapper {
+    text-align: center;
+    outline: 1px white dotted;
+}
+.nav-item {
+    width: 24%;
+    height: 50px;
+    background-color: rgb(83, 181, 80);
+    display: inline-block;
+    /* margin-left: 2px; */
+}
+
+.nav-item:hover {
+    background-color: azure;
+}
+
+.nav-item p {
+    color: wheat;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: wheat;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(105, 38, 132);
+}

@@ -1,0 +1,44 @@
+h1 {
+    color: rgb(15, 161, 15);
+}
+
+h3 {
+    color: crimson;
+}
+
+p {
+    font-family: fantasy;
+}
+
+ul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div {
+    background-color: yellow;
+    color: green;
+    border: 4px dotted;
+    padding: 20px;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+
+.title {
+    color: bisque;
+    background-color: rgb(204, 213, 213);
+    margin-right: -40px;
+    padding: 12px;
+    border: purple 3px double;
+
+}
+
+#specialDiv {
+    background-color: darkslateblue;
+    padding: 10px;
+    border: lightcoral 5px dashed;
+    margin-bottom: 50px;
+    margin-top: -25px;
+}
+
+.highlight {
+    background-color: burlywood;
+}
