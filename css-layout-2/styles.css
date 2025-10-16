@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 33%;
+    padding: 10px;
+     box-sizing: border-box; /* define if size of element is part of content */
+}

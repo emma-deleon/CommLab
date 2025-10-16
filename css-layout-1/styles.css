@@ -1,0 +1,56 @@
+body {
+    background-color: darkslategray;
+}
+
+.box {
+    width: 300px;
+    /* height: 100px; */
+    outline: 2px solid white;
+    padding: 10px;
+    margin: 30px;
+    background-color: white;
+
+}
+
+#one {
+    /* display: none; */
+    /* visibility: visible; */
+    position: relative;
+    top: 0px;
+    left: 20px;
+}
+
+#one span {
+    position: relative;
+    top: -5px;
+    left: 2px;
+}
+
+#one:hover {
+    visibility: hidden;
+}
+
+#two {
+    position: absolute;
+    left: 400px;
+    
+
+}
+#three {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+#four {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+
+
+}
+
+#five {
+    height: 1000px;
+    background-color: rgb(213, 212, 212);
+}
