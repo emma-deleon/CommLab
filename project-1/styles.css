@@ -221,6 +221,10 @@ p {
     top: 10px;
 }
 
+.light-mode:hover {
+    cursor: pointer;
+}
+
 .title h1 {
     margin: 0;
     font-weight: 100;
