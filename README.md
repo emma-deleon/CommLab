@@ -21,15 +21,15 @@ Check out my work below ↓ ↓ ↓
 
 ## Recitation Work
 
-1. [A Journey Through Sheets](https://docs.google.com/spreadsheets/d/1_nVe2Vzv9B2lLLGR55wGwcTeC2Y_hEOeWUVS6tyvbAY/edit?usp=sharing)
+### 1. [A Journey Through Sheets](https://docs.google.com/spreadsheets/d/1_nVe2Vzv9B2lLLGR55wGwcTeC2Y_hEOeWUVS6tyvbAY/edit?usp=sharing)
 
 ![Journey Through Sheets scheenshot](img/sheets-journey-ss.png)
 
-2. [Life Story](life-story)
+### 2. [Life Story](life-story)
 
 ![life story home screenshot](img/life-story-ss.png)
 
-3. [Anatomy of Web](shanzai-web) _(Shanzai Web)_
+### 3. [Anatomy of Web](shanzai-web) _(Shanzai Web)_
 
 ![Anatomy of Web screenshot](img/recreation-ss.png)
 
