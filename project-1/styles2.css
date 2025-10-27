@@ -1,0 +1,360 @@
+.upper-background {
+    /* height: 6000px; */
+    background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.00) 0%,
+    rgba(0,0,0,0.00) 15%,
+    rgba(0,0,0,0.15) 25%,
+    rgba(0,0,0,0.78) 50%,
+    rgba(0,0,0,0.95) 75%,
+    rgba(0,0,0,1) 100%
+  );
+  margin-bottom: 0;
+}
+
+.nav-bar-wrapper h2 {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: .2px;
+    margin-left: 15px;
+    position: relative;
+    top: 2px;
+}
+
+.dropdown {
+    font-size: 20px;
+    position: relative;
+    bottom: 3px;
+}
+
+.nav-item > .nav-text {
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    bottom: 5px;
+    color: #105786;
+}
+
+.newsroom-nav .nav-bar-right img {
+    width: 28px;
+    margin: 0px 15px;
+}
+
+.newsroom-nav .nav-bar-right .dropdown {
+    top: 5px;
+    right: 5px;
+}
+
+.newsroom-nav .nav-bar-right .dropdown:hover {
+    cursor: pointer;
+}
+
+.newsroom-nav .nav-bar-right button {
+    background-color: white;
+    color:  #105786;
+    border: rgb(13, 138, 234) 1px solid;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+
+    margin: 10px 15px;
+    cursor: pointer;
+}
+
+.newsroom-nav .nav-bar-right button:hover {
+    color:  #105786;
+    border:  #105786 1px solid;
+}
+
+.news-content {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.news-content p {
+    color: black;
+}
+
+.news-heading {
+    display: flex;
+    align-self: center;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.news-heading h1 {
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: .3px;
+    margin-bottom: 0;
+    font-family: Clear Sans Light;
+}
+
+.news-sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.news-sub p {
+    color: rgb(76, 76, 76);
+
+}
+
+.bold {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Clear Sans Bold;
+}
+
+.bold-font {
+    font-family: Clear Sans Bold;
+}
+
+.date p {
+    font-size: small;
+}
+
+.topic p {
+    color: #105786;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.news-second-head h3 {
+    font-size: 23px;
+    font-weight: 100;
+    letter-spacing: .3px;
+    color: rgb(58, 58, 58);
+    margin-top: 8%;;
+}
+
+.news-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-buttons img {
+    width: 30px;
+}
+
+.news-buttons p {
+    display: inline;
+    color: rgb(0, 104, 181);
+    position: relative;
+    font-size: 15px;
+    bottom: 9px;
+}
+
+.news-buttons button {
+    background-color: white;
+    border: rgb(13, 138, 234) 1px solid;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.news-buttons button:hover {
+    border: rgb(0, 104, 181) 1px solid;
+}
+
+
+.main-text {
+    position: relative;
+}
+
+.original {
+    position: relative;
+    z-index: 1;
+}
+
+.clone {
+    position: absolute;
+    z-index: 3;
+    margin-left: 0;
+    margin-right: 15%;
+    top: 1500px;
+}
+
+.main-text > .clone {
+    line-height: 30px;
+}
+
+.distorted-text > .clone {
+    line-height: 10px;
+}
+
+.lower-background {
+    height: 8000px;
+    background-color: black;
+    margin-top: 0;
+}
+
+.background-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a {
+    margin-bottom: 500px;
+}
+
+.background-info a > img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 500px;
+}
+
+.b {
+    margin-bottom: 1000px;
+}
+
+.c {
+    margin-bottom: 1000px;
+}
+
+.background-info h1 {
+    color: white;
+    font-family: Clear Sans Bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    text-align: center;
+}
+
+.lower-background-images {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.lower-background-images a {
+    margin: 0;
+}
+
+.lower-background-images img {
+    height: 200px;
+}
+
+.one img {
+    height: 300px;
+    position: relative;
+    float: right;
+    right: 40px;
+}
+
+.two img {
+    position: relative;
+    bottom: 40px;
+    float: right;
+    right: 300px;
+    z-index: 3;
+}
+
+.three img {
+    height: 400px;
+    position: relative;
+    bottom: 300px;
+    left: 20px
+}
+
+.four img {
+    position: relative;
+    left: 250px;
+    bottom: 100px;
+    z-index: 3;
+}
+
+
+.five img {
+    position: relative;
+    height: 100px;
+    float: right;
+    z-index: 3;
+    top: 200px;
+}
+
+.six img {
+    position: relative;
+    bottom: 700px;
+    left: 400px;
+    height:300px;
+
+}
+
+.seven img {
+    position: relative;
+    height: 400px;
+    bottom: 600px;
+    left: 600px;
+
+}
+
+.eight img {
+    position: relative;
+    bottom: 700px;
+    height: 400px;
+    left: 20px;
+
+}
+
+.nine img {
+    position: relative;
+    bottom: 750px;
+    height: 100px;
+    left: 10px;
+
+}
+
+.ten img {
+    position: relative;
+    bottom: 800px;
+    float: right;
+    right: 100px;
+    height: 300px;
+    z-index: 2;
+
+}
+
+.ele img {
+    position: relative;
+    bottom: 850px;
+    height: 300px;
+    float: right;
+    right: 400px;
+
+}
+
+.twe img {
+    position: relative;
+    bottom: 980px;
+    height: 100px;
+    float: right;
+
+    
+}
+
+.thir img {
+    position: relative;
+    bottom: 950px;
+    left: 50px;
+    height: 300px;
+
+}
+
+.fourteen img {
+    position: relative;
+    bottom: 980px;
+    left: 360px;
+    height: 400px;
+    
+}

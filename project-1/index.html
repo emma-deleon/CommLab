@@ -13,11 +13,13 @@
 <body>
     <main> <!--informative tag, does not change structure/outline-->
         <div class="floating-nav">
-            <p class="float-item">Downloads</p>
+            <p class="float-item" id="not-allowed">Downloads</p>
             <p class="float-div"><b>|</b></p>
-            <p class="float-item">Products</p>
+            <a href="performance-and-efficency.html" style="text-decoration: none;">
+                <p class="float-item">Products</p>
+            </a>
             <p class="float-div"><b>|</b></p>
-            <p class="float-item">Specs</p>
+            <p class="float-item" id="not-allowed">Specs</p>
         </div>
         <div class="nav-bar-wrapper">
             <div class="nav-bar-logo">
@@ -25,35 +27,39 @@
             </div>
             <div class="nav-bar-left">
                 <div class="nav-item">
-                    <p>PRODUCTS</p>
+                    <a href="performance-and-efficency.html">
+                        <p>PRODUCTS</p>
+                    </a>
                 </div>
                 <div class="nav-item">
-                    <p>SUPPORT</p>
+                    <p id="not-allowed">SUPPORT</p>
                 </div>
                 <div class="nav-item">
-                    <p>SOLUTIONS</p>
+                    <p id="not-allowed">SOLUTIONS</p>
                 </div>
                 <div class="nav-item">
-                    <p>DEVELOPERS</p>
+                    <p id="not-allowed">DEVELOPERS</p>
                 </div>
                 <div class="nav-item">
-                    <p>PARTNERS</p>
+                    <p id="not-allowed">PARTNERS</p>
                 </div>
                 <div class="nav-item">
-                    <p>FOUNDRY</p>
+                    <p id="not-allowed">FOUNDRY</p>
                 </div>
             </div>
             <div class="nav-space"></div>
             <div class="nav-bar-right"">
-                <img src=" img/user-icon.png" alt="user icon">
-                <img src="img/language-icon.png" alt="globe icon">
-                <p class="icon-text"
-                    style="background-color: white; margin-left: -15px; margin-top: 20px; padding-right: 18px;">ENGLISH
-                </p>
+                <img src=" img/user-icon.png" alt="user icon" id="not-allowed">
+                <div id="not-allowed">
+                    <img src="img/language-icon.png" alt="globe icon">
+                    <p class="icon-text"
+                        style="background-color: white; position: relative; right: 15px; bottom: 25px;">ENGLISH
+                    </p>
+                </div>
                 <div style="background-color: (215, 214, 214, 0.268);">
                     <div class="search-bar">
                         <img src="img/seach-icon.png" alt="magnifying glass icon">
-                        <p>Search Intel.com</p>
+                        <p id="not-allowed">Search Intel.com</p>
                     </div>
                 </div>
             </div>
@@ -69,7 +75,7 @@
                 </div>
                 <div class="spotlight">
                     <div class="light-mode">
-                        <p>Modes</p>
+                        <p id="not-allowed">Modes</p>
                         <img src="img/sun-icon.svg" alt="sun icon">
                     </div>
                     <br>
@@ -88,7 +94,7 @@
                             <h2>Today's standard for business PCs</h2>
                             <p>Boost productivity. Accelerate innovation. Drive tangible ROI.</p>
                             <div class="learn-more">
-                                <p>Learn more <img src="img/spotlight-arrow.png" alt="left arrow"></p>
+                                <p id="not-allowed">Learn more <img src="img/spotlight-arrow.png" alt="left arrow"></p>
                             </div>
                         </div>
                         <div class="spotlight-img">
@@ -135,7 +141,7 @@
             <div class="dev-tools-contact">
                 <div class="dev-contact-upper">
                     <img src="img/dev-zone.webp" alt="dev zone logo">
-                    <button>Join</button>
+                    <button id="not-allowed">Join</button>
                 </div>
                 <div class="dev-contact-lower">
                     <p><i>Your Official Source for Developing on Intel<sup>®</sup> Hardware and Software</i></p>
@@ -155,53 +161,44 @@
                     <img src="img/ai-icon.png" alt="ai icon">
                     <h2>AI</h2>
                     <p>Development tools and resources help you prepare, build, deploy, and scale your AI solutions.</p>
-                    <button>Explore</button>
+                    <button id="not-allowed">Explore</button>
                 </div>
                 <div class="card-grid">
                     <div class="card-item">
-                        <img src="img/dev-tool-icon.png" alt="developer tool icon">
-                        <p>Developer Tools</p>
+                        <img id="not-allowed" src="img/dev-tool-icon.png" alt="developer tool icon">
+                        <p id="not-allowed">Developer Tools</p>
                     </div>
                     <div class="card-item">
-                        <img src="img/os-icon.png" alt="open source icon">
-                        <p>Open Source</p>
+                        <img id="not-allowed" src="img/os-icon.png" alt="open source icon">
+                        <p id="not-allowed">Open Source</p>
                     </div>
                     <div class="card-item">
-                        <img src="img/gaming-icon.png" alt="gaming icon">
-                        <p>Gaming</p>
+                        <img id="not-allowed" src="img/gaming-icon.png" alt="gaming icon">
+                        <p id="not-allowed">Gaming</p>
                     </div>
                     <div class="card-item">
-                        <img src="img/cloud-icon.png" alt="cloud icon">
-                        <p>Cloud</p>
+                        <img id="not-allowed" src="img/cloud-icon.png" alt="cloud icon">
+                        <p id="not-allowed">Cloud</p>
                     </div>
                     <div class="card-item">
-                        <img src="img/ai-pc-icon.png" alt="ai pc icon">
-                        <p>AI PC</p>
+                        <img id="not-allowed" src="img/ai-pc-icon.png" alt="ai pc icon">
+                        <p id="not-allowed">AI PC</p>
                     </div>
                     <div class="card-item">
-                        <img src="img/edge-icon.png" alt="edge icon">
-                        <p>Edge</p>
+                        <img id="not-allowed" src="img/edge-icon.png" alt="edge icon">
+                        <p id="not-allowed">Edge</p>
                     </div>
                     <div class="card-item">
-                        <img src="img/hpc-icon.png" alt="hpc icon">
-                        <p>HPC</p>
+                        <img id="not-allowed" src="img/hpc-icon.png" alt="hpc icon">
+                        <p id="not-allowed">HPC</p>
                     </div>
                     <div class="card-item">
-                        <img src="img/explore-all-icon.png" alt="explore all icon">
-                        <p>Explore All</p>
+                        <img id="not-allowed" src="img/explore-all-icon.png" alt="explore all icon">
+                        <p id="not-allowed">Explore All</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br> -->
         <div id="footer">
             <div class="footer-logo">
                 <a href="index.html"><img src="img/intel-footer-logo.svg" alt="footer logo"></a>
@@ -209,48 +206,59 @@
             <div class="footer-right">
                 <div class="footer-list">
                     <ul>
-                        <li>Company Overview</li>
-                        <li>Contect Intel</li>
-                        <li>Newsroom</li>
-                        <li>Investors</li>
-                        <li>Career</li>
-                        <li>Corporate Responsibility</li>
-                        <li>Inclusion</li>
-                        <li>Public Policy</li>
+                        <li id="not-allowed">Company Overview</li>
+                        <li id="not-allowed">Contect Intel</li>
+                        <a href="ai-revolution.html" style="color: black;  text-decoration: none;">
+                            <li>Newsroom</li>
+                        </a>
+                        <li id="not-allowed">Investors</li>
+                        <li id="not-allowed">Career</li>
+                        <li id="not-allowed">Corporate Responsibility</li>
+                        <li id="not-allowed">Inclusion</li>
+                        <li id="not-allowed">Public Policy</li>
                     </ul>
                 </div>
                 <div class="footer-list">
                     <ul>
-                        <li class="app-icon"><img src="img/facebook-icon.png" alt="facebook icon"></li>
-                        <li class="app-icon"><img src="img/twitter-icon.png" alt="twitter/x icon"></li>
-                        <li class="app-icon"><img src="img/linkedin-icon.png" alt="linkedin-icon"></li>
-                        <li class="app-icon"><img src="img/youtube-icon.png" alt="youtube icon"></li>
-                        <li class="app-icon"><img src="img/insta-icon.png" alt="instagram icon"></li>
+                        <li class="app-icon"><a href="https://www.facebook.com/Intel"><img src="img/facebook-icon.png"
+                                    alt="facebook icon"></a></li>
+                        <li class="app-icon"><a href="https://x.com/intel"><img src="img/twitter-icon.png"
+                                    alt="twitter/x icon"></a></li>
+                        <li class="app-icon"><a href="https://www.linkedin.com/company/intel-corporation"><img
+                                    src="img/linkedin-icon.png" alt="linkedin-icon"></a></li>
+                        <li class="app-icon"><a href="youtube.com/user/channelintel?sub_confirmation=1"><img
+                                    src="img/youtube-icon.png" alt="youtube icon"></a></li>
+                        <li class="app-icon"><a href="https://www.instagram.com/intel/"><img src="img/insta-icon.png"
+                                    alt="instagram icon"></a></li>
                     </ul>
                 </div>
                 <div class="footer-list-small">
                     <ul>
-                        <li>© Intel Corporation</li>
-                        <li>Terms of Use</li>
-                        <li>*Trademarks</li>
-                        <li>Cookies</li>
-                        <li>Privacy</li>
-                        <li>Supply Chain Transparency</li>
-                        <li>Site Map</li>
-                        <li>Recycling</li>
-                        <li>Your Privacy Choices <img src="img/privacy-icon.png" alt="privacy icon"></li>
-                        <li>Notice at Collection</li>
+                        <li id="not-allowed">© Intel Corporation</li>
+                        <li id="not-allowed">Terms of Use</li>
+                        <li id="not-allowed">*Trademarks</li>
+                        <li id="not-allowed">Cookies</li>
+                        <li id="not-allowed">Privacy</li>
+                        <a href="ai-revolution.html" style="color: black;  text-decoration: none;  border-right: 1px solid;">
+                            <li>Supply Chain Transparency</li>
+                        </a>
+                        <li id="not-allowed">Site Map</li>
+                        <li id="not-allowed">Recycling</li>
+                        <li id="not-allowed">Your Privacy Choices <img src="img/privacy-icon.png" alt="privacy icon">
+                        </li>
+                        <li id="not-allowed">Notice at Collection</li>
                     </ul>
                 </div>
                 <div class="footer-text">
                     <p>Intel technologies may require enabled hardware, software or service activation. // No product or
                         component can be absolutely secure. // Your costs and results may vary. // Performance varies by
-                        use, configuration, and other factors. Learn more at <span
-                            class="link">intel.com/performanceindex</span>. // See our
-                        complete legal <span class="link">Notices and Disclaimers</span>. // Intel is committed to
+                        use, configuration, and other factors. Learn more at <span class="link"
+                            id="not-allowed">intel.com/performanceindex</span>. // See our
+                        complete legal <span class="link" id="not-allowed">Notices and Disclaimers</span>. // Intel is
+                        committed to
                         respecting human rights and
                         avoiding causing or contributing to adverse impacts on human rights. See Intel’s <span
-                            class="link">Global Human
+                            class="link" id="not-allowed">Global Human
                             Rights Principles</span>. Intel’s products and software are intended only to be used in
                         applications
                         that do not cause or contribute to adverse impacts on human rights.</p>

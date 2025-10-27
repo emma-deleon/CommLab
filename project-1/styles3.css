@@ -1,0 +1,245 @@
+.nav-bar-wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+body a {
+   text-decoration: none;
+}
+
+.status {
+    background-color: #00aeef;
+    width: 85px;
+    height: 4px;
+    position: relative;
+    left: 75px;
+    bottom: 4px;
+    margin-bottom: -4px;
+    z-index: 3;
+}
+
+.location {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+}
+
+.location li {
+    font-family: Clear Sans Light;
+    font-size: 13.5px;
+    position: relative;
+    bottom: 20px;
+    left: 5px;
+    color: rgb(0, 104, 181);
+}
+
+.products-location .grey {
+    color: rgba(128, 128, 128, 0.387);
+}
+
+.products-location .bold {
+    font-family: Clear Sans Bold;
+}
+
+.products-location #black {
+    color: black;
+}
+
+.products-location li:hover {
+    text-decoration: none;
+}
+
+.products-location .bold:hover, .grey:hover {
+    cursor: default;
+}
+
+
+
+.processors-upper {
+    width: 100%;
+    height: 282px;
+    margin-top: 0;
+    background-color: rgb(0, 40, 90);
+}
+
+.align {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.upper-box {
+    display: flex;
+    align-items: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.upper-box-left {
+    padding-top: 40px;
+    width: 50vw;
+    min-width: 530px;
+    /* width:600px; */
+    /* max-width: 1000px; */
+    margin-bottom: 50px;
+
+}
+
+.upper-box-left h1 {
+    margin-top: 0;
+    font-family: Clear Sans Light;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.upper-box-left p {
+    color: white;
+    font-size: 14px;
+}
+
+.upper-box-right {
+    padding-top: 40px;
+}
+
+.upper-box-right img {
+    width: 250px;
+}
+
+.upper-box-tabs {
+    display: flex;
+    align-items: column;
+    justify-content: space-between;
+    width: 420px;
+    /* padding-left: 10px; */
+}
+
+.upper-box-tabs p {
+    color: white;
+    font-size: 14px;
+    font-family: Clear Sans Light;
+}
+
+.upper-box-tabs .selected {
+    background-color: rgb(247, 247, 247);
+    color: black;
+    font-family: Clear Sans Bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    bottom: 15px;
+}
+
+.processors-mid {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.processors-mid .callout-img img {
+    height: auto;
+    width: 700px;
+    margin-left: 10vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.processors-mid .callout-content h2 {
+    font-size: 35px;;
+}
+
+.processors-mid .callout-content p {
+    margin-top: -20px;
+    font-size: 14px;
+    font-family: Clear Sans;
+}
+
+.processors-mid .callout-content .hyperlink {
+    margin-top: 15px;
+    color: rgb(0, 104, 181);
+    text-decoration: underline dotted rgb(0, 104, 181) 1px;
+    text-underline-offset: 5px;
+}
+
+.processors-mid .callout-content .hyperlink:hover {
+    color: rgb(0, 40, 90);
+    text-decoration: underline solid rgb(0, 40, 90) .5px;
+}
+
+.processors-read-me {
+    margin-left: 3vw;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    gap: 30px;
+}
+
+.read-item {
+    background-color: rgb(243, 243, 243);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.read-item p {
+    color: rgb(0, 104, 181);
+    font-size: 15px;
+    font-family: Clear Sans Light;
+}
+
+.read-item p:hover {
+    color: rgb(0, 40, 90);
+}
+
+.processors-lower {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Clear Sans Light;
+}
+
+.processors-lower h1 {
+    text-align: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+}
+
+.lower-item div {
+    text-align: center;
+}
+
+.lower-item h4 {
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Clear Sans;
+    color: rgb(0, 91, 133);
+}
+
+.lower-item h4 .percent {
+    font-family: Clear Sans Light;
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+}
+
+.lower-item p {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+    line-height: 15px;
+
+}
+
+.lower-item p sup {
+    font-size: 10px;
+}
