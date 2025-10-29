@@ -18,6 +18,7 @@ Check out my work below ↓ ↓ ↓
 4. [CSS Tests](css-tests)
    - [CSS Layout 1](css-layout-1)
    - [CSS Layout 2](css-layout-2)
+   - [CSS Animations](css-animations)
 
 ## Recitation Work
 
@@ -32,6 +33,8 @@ Check out my work below ↓ ↓ ↓
 ### 3. [Anatomy of Web](shanzai-web) _(Shanzai Web)_
 
 ![Anatomy of Web screenshot](img/recreation-ss.png)
+
+### 4. [Lorem](lorem)
 
 ## Projects
 

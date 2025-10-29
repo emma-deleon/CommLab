@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(234, 167, 143);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.lorem {
+    width: 400px;
+    height: 400px;
+    border: 1px solid white;
+    text-align: center;
+    background-color: rgb(36, 82, 82);
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: white;
+    transition: all .4s linear;
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(100);
+
+    }
+}
+
+.fall {
+    animation: fall 3s ease-in infinite;
+}
