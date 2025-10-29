@@ -276,19 +276,10 @@ p {
     text-align: center;
 }
 
-.title sup {
-    font-size: 90px;
-    position: relative;
-    top: 30px;
-    right: 10px;
-    font-family: Clear Sans Light;
-}
-
 
 .spotlight-img {
     overflow: hidden;
     position: relative;
-    z-index: 0;
 }
 
 .spotlight-img img {
@@ -297,7 +288,6 @@ p {
     margin-bottom: -4px;
     transition: transform .4s ease-in-out;
     transform-origin: center center;
-    will-change: transform;
 }
 
 .heads-up:hover .spotlight-img img {
@@ -311,7 +301,6 @@ p {
   right: 0;
   bottom: 0;
   transition: opacity .4s ease-in-out;
-  will-change: opacity;
   opacity: 0;
   background: linear-gradient(
     to bottom,
@@ -326,7 +315,6 @@ p {
 
 .heads-up {
     position: relative;
-    z-index: 0;
 }
 
 .heads-up:hover .overlay {
@@ -446,9 +434,6 @@ button:hover {
     height: 100%;
 }
 
-sup {
-    font-size: 6px;
-}
 .dev-tools-container {
     display: flex;
     flex-direction: row;
@@ -520,10 +505,6 @@ sup {
    font-size: 14.5px;
 }
 
-.dev-contact-lower sup {
-    padding: 2px;
-    font-size: 8px;
-}
 
 .dev-grid {
     height: 350px;
