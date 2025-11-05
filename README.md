@@ -19,6 +19,9 @@ Check out my work below ↓ ↓ ↓
    - CSS Layout 1 [Live](https://emma-deleon.github.io/CommLab/css-layout-1/) | [Code](css-layout-1)
    - CSS Layout 2 [Live](https://emma-deleon.github.io/CommLab/css-layout-2/) | [Code](css-layout-2)
    - CSS Animations [Live](https://emma-deleon.github.io/CommLab/css-animations/) | [Code](css-animations)
+5. JavaScript Tests
+   - Day 1 [Live](https://emma-deleon.github.io/CommLab/js1) | [Code](js1)
+   - Day 2 [Live](https://emma-deleon.github.io/CommLab/js2) | [Code](js2)
 
 ## Recitation Work
 

@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(211, 245, 211);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5vw 5vh;
+    color: rgb(90, 76, 81);
+}
+
+
+#container {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(178, 226, 210);
+    border-radius: 25px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    transition: transform 1s ease-out;
+    border: rgb(43, 94, 70) 2px dashed;
+}
+
+#container:active {
+    background-color: rgb(204, 236, 225);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 40vw;
+    gap: 50px;
+}
+
+.button-container {
+    width: 200px;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: rgb(178, 67, 108);
+    border: rgb(109, 31, 60) 2px solid;
+    border-radius: 25px;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: rgb(222, 119, 157);
+    border: rgb(123, 42, 72) 2px solid;
+    color: white;
+}
+
+button:active {
+    background-color: rgb(237, 196, 211);
+}
+
+.move {
+    transform: translate(100px, 0px) rotate(6deg);
+    /* transform: rotate(6deg); */
+}
