@@ -36,6 +36,10 @@ body {
     gap: 10px;
 }
 
+.refresh-button {
+    margin-left: 30%;
+}
+
 button {
     background-color: rgb(178, 67, 108);
     border: rgb(109, 31, 60) 2px solid;

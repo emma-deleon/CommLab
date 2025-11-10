@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(118, 118, 118);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    height: inherit;
+    /* gap: 50px; */
+}
+
+#centered-button {
+    margin: 50% 50%;
+}
+
+button {
+
+}
+
+
+@keyframes drop {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(100vh) rotate(40deg);
+    }
+}
+
+@keyframes flash {
+    0% {
+        background-color: rgb(156, 15, 15);
+    }
+
+    100% {
+        background-color: rgb(118, 118, 118);
+    }
+}
+
+
+@keyframes fly {
+    0% {
+        transform: translateX(25vw);
+    }
+
+    25% {
+        transform: translateX(-35vw);
+        transform: translateY(20vh);
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: translateX(5vw);
+        transform: translateY(30vh);
+    }
+
+    100% {
+        transform: translateX(-35vw);
+        transform: translateY(-10vh);
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(110vh)
+    }
+}
+
+.flash {
+    animation: flash 1s;
+}
+
+.drop {
+    display: inline-block;
+    animation: drop 1.7s ease-in forwards;
+}
+
+.fly {
+    display: inline-block;
+    animation: fly 7s ease-in alternate infinite;
+    cursor: not-allowed;
+}
+
+.raindrop {
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background-color: rgb(129, 21, 21);
+    animation: fall linear;
+    top:-15px;
+}
+
+.fade {
+    background-color: black;
+}
+
+
+.blood {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: red;
+    bottom: -110%; 
+    transition: bottom 2s ease-out;
+}
+
+.island {
+    display: flex;
+    position: absolute;
+    bottom: -110%;
+    width: 100%;
+    justify-content: center;
+    z-index: 3;
+    transition: bottom 2s ease-out;
+}
+
+.island img {
+    height: 200px;
+}
+
+.island-slide {
+    bottom: 475px;
+}
+
+.slide-up {
+    bottom: -200px;
+}
+
+
+
+
