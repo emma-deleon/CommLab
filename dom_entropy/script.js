@@ -552,9 +552,8 @@ function middle() {
       
 function replaceImg() {
     const islandImage = document.querySelector(".island img");
-  if (!islandImage) return;
-  islandImage.src = "explosion.gif";   // swaps island.png -> explosion.gif
-  islandImage.alt = "Explosion";
+    islandImage.src = "explosion.gif";   // swaps island.png -> explosion.gif
+    islandImage.alt = "Explosion";
 }
 
 function ouch(element) {
