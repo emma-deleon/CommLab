@@ -1,0 +1,30 @@
+body {
+    background-color: mistyrose;
+    margin-left: 10px;
+}
+
+button {
+    background-color: rgb(178, 67, 108);
+    border: rgb(109, 31, 60) 2px solid;
+    /* border-radius: 25px; */
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: 1px black solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.circle {
+    border-radius: 50%;
+}
