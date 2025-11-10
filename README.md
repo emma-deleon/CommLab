@@ -39,6 +39,8 @@ Check out my work below ↓ ↓ ↓
 
 ### 4. Lorem [Live](https://emma-deleon.github.io/CommLab/lorem) | [Code](lorem)
 
+### 5. DOM Entropy [Live](https://emma-deleon.github.io/CommLab/dom_entropy) | [Code](dom-entropy)
+
 ## Projects
 
 ### 1. Shanzai Web [Live](https://emma-deleon.github.io/CommLab/project-1/) | [Code](project-1)
