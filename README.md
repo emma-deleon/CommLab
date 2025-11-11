@@ -12,17 +12,17 @@ Check out my work below ↓ ↓ ↓
 
 ## Classwork
 
-1. My First Website | [Live](https://emma-deleon.github.io/CommLab/my-first-website/) ౨ৎ [Code](my-first-website)
-2. Week 4 In-Class | [Live](https://emma-deleon.github.io/CommLab/week-4-in-class/) ౨ৎ [Code](week-4-in-class)
-3. Messy CSS | [Live](https://emma-deleon.github.io/CommLab/tutorial-messy-css/chapter-2-3.html) ౨ৎ [Code](tutorial-messy-css/chapter-2-3.html)
-4. CSS Tests | [Live](https://emma-deleon.github.io/CommLab/css-tests/) ౨ৎ [Code](css-tests)
-   - CSS Layout 1 | [Live](https://emma-deleon.github.io/CommLab/css-layout-1/) ౨ৎ [Code](css-layout-1)
-   - CSS Layout 2 | [Live](https://emma-deleon.github.io/CommLab/css-layout-2/) ౨ৎ [Code](css-layout-2)
-   - CSS Animations | [Live](https://emma-deleon.github.io/CommLab/css-animations/) ౨ৎ [Code](css-animations)
+1. My First Website | [Live](https://emma-deleon.github.io/CommLab/my-first-website/) ✦ [Code](my-first-website)
+2. Week 4 In-Class | [Live](https://emma-deleon.github.io/CommLab/week-4-in-class/) ✦ [Code](week-4-in-class)
+3. Messy CSS | [Live](https://emma-deleon.github.io/CommLab/tutorial-messy-css/chapter-2-3.html) ✦ [Code](tutorial-messy-css/chapter-2-3.html)
+4. CSS Tests | [Live](https://emma-deleon.github.io/CommLab/css-tests/) ✦ [Code](css-tests)
+   - CSS Layout 1 | [Live](https://emma-deleon.github.io/CommLab/css-layout-1/) ✦ [Code](css-layout-1)
+   - CSS Layout 2 | [Live](https://emma-deleon.github.io/CommLab/css-layout-2/) ✦ [Code](css-layout-2)
+   - CSS Animations | [Live](https://emma-deleon.github.io/CommLab/css-animations/) ✦ [Code](css-animations)
 5. JavaScript Tests
-   - Day 1 | [Live](https://emma-deleon.github.io/CommLab/js1) ౨ৎ [Code](js1)
-   - Day 2 | [Live](https://emma-deleon.github.io/CommLab/js2) ౨ৎ [Code](js2)
-   - Day 3 | [Live](https://emma-deleon.github.io/CommLab/js3) ౨ৎ [Code](js3)
+   - Day 1 | [Live](https://emma-deleon.github.io/CommLab/js1) ✦ [Code](js1)
+   - Day 2 | [Live](https://emma-deleon.github.io/CommLab/js2) ✦ [Code](js2)
+   - Day 3 | [Live](https://emma-deleon.github.io/CommLab/js3) ✦ [Code](js3)
 
 ## Recitation Work
 
