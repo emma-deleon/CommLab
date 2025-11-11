@@ -13,13 +13,17 @@ Check out my work below ↓ ↓ ↓
 ## Classwork
 
 ### 1. My First Website  &#124; [Live](https://emma-deleon.github.io/CommLab/my-first-website/)  ✦ [Code](my-first-website)
+
 ### 2. Week 4 In-Class  &#124; [Live](https://emma-deleon.github.io/CommLab/week-4-in-class/)  ✦ [Code](week-4-in-class)
+
 ### 3. Messy CSS  &#124; [Live](https://emma-deleon.github.io/CommLab/tutorial-messy-css/chapter-2-3.html)  ✦ [Code](tutorial-messy-css/chapter-2-3.html)
+
 ### 4. CSS Tests  &#124; [Live](https://emma-deleon.github.io/CommLab/css-tests/)  ✦ [Code](css-tests)
    - CSS Layout 1  &#124; [Live](https://emma-deleon.github.io/CommLab/css-layout-1/)  ✦ [Code](css-layout-1)
    - CSS Layout 2  &#124; [Live](https://emma-deleon.github.io/CommLab/css-layout-2/)  ✦ [Code](css-layout-2)
    - CSS Animations  &#124; [Live](https://emma-deleon.github.io/CommLab/css-animations/)  ✦ [Code](css-animations)
-### 5. JavaScript Tests  &#124;
+
+### 5. JavaScript Tests
    - Day 1  &#124; [Live](https://emma-deleon.github.io/CommLab/js1)  ✦ [Code](js1)
    - Day 2  &#124; [Live](https://emma-deleon.github.io/CommLab/js2)  ✦ [Code](js2)
    - Day 3  &#124; [Live](https://emma-deleon.github.io/CommLab/js3)  ✦ [Code](js3)
