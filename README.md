@@ -12,7 +12,7 @@ Check out my work below ↓ ↓ ↓
 
 ## Classwork
 
-1. My First Website  &#124; | [Live](https://emma-deleon.github.io/CommLab/my-first-website/)  ✦ [Code](my-first-website) |
+1. My First Website  &#124; [Live](https://emma-deleon.github.io/CommLab/my-first-website/)  ✦ [Code](my-first-website) 
 2. Week 4 In-Class  &#124; [Live](https://emma-deleon.github.io/CommLab/week-4-in-class/)  ✦ [Code](week-4-in-class)
 3. Messy CSS  &#124; [Live](https://emma-deleon.github.io/CommLab/tutorial-messy-css/chapter-2-3.html)  ✦ [Code](tutorial-messy-css/chapter-2-3.html)
 4. CSS Tests  &#124; [Live](https://emma-deleon.github.io/CommLab/css-tests/)  ✦ [Code](css-tests)
