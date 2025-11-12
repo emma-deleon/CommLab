@@ -1,0 +1,152 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: monospace;
+    margin-bottom: 200px;
+    overflow: hidden;
+}
+
+#collision-bool-container {
+    position: absolute;
+    z-index: 5;
+    width: 220px;
+    height: 30px;
+    background-color: white;
+    border: rgb(58, 6, 6) 2px solid;
+    box-shadow: 5px 10px #676767;
+    padding: 5px 10px;
+    margin: 0;
+    left: 8vw;
+    top: 13vh;
+}
+
+#collision-bool-container p {
+    font-size: 12px;
+    margin: 0;
+    padding: 7px 0;
+    padding-left: 5px;
+}
+
+.highlight {
+    letter-spacing: 1px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+
+}
+
+.background-1 {
+    position: absolute;
+    z-index: 1;
+    width: inherit;
+    top: 40vh;
+    left: 25vw;
+    opacity: .9;
+}
+
+.background-2 {
+    position: absolute;
+    z-index: 1;
+    width: inherit;
+    top: -1vh;
+    left: -50vw;
+    opacity: .6;
+}
+
+#background img {
+    width: 80vw;
+    height: 70vh;
+}
+
+#main-content {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: white 4px solid;
+    width: 80vw;
+    height: 75vh;
+    margin: 15px 0;
+    margin-top: 25px;
+    left: 10vw;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 10vh;
+    z-index: 2;
+}
+
+button {
+    background-color: rgb(172, 2, 2);
+    border: rgb(58, 6, 6) 2px solid;
+    color: rgb(234, 231, 231);
+    box-shadow: 5px 10px #5d5d5d;
+    padding: 12px 32px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: rgb(222, 62, 62);
+    border: rgb(58, 6, 6) 2px solid;
+}
+
+button:active {
+    background-color: rgb(119, 168, 114);
+    color: black;
+}
+
+
+@keyframes moveRight {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(80vw - 200px));
+    }
+}
+
+@keyframes moveLeft {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(200px - 80vw));
+    }
+}
+
+.move-right {
+    animation: moveRight 4s infinite linear alternate;
+}
+
+.move-left {
+    animation: moveLeft 4s infinite linear alternate;
+}
+
+
+.clicked {
+    pointer-events: none;
+    background-color: rgb(69, 166, 12);
+    border-color: rgb(38, 84, 61);
+    color: rgb(30, 66, 37);
+}
+
+
+/* .test {
+    color: rgb(206, 0, 151);
+    color:rgb(0, 23, 196);
+} */
