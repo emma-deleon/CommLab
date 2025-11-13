@@ -27,6 +27,8 @@ Check out my work below ↓ ↓ ↓
    - Day 1  &#124; [Live](https://emma-deleon.github.io/CommLab/js1)  ✦ [Code](js1)
    - Day 2  &#124; [Live](https://emma-deleon.github.io/CommLab/js2)  ✦ [Code](js2)
    - Day 3  &#124; [Live](https://emma-deleon.github.io/CommLab/js3)  ✦ [Code](js3)
+   - JavaScript Events  &#124; [Live](https://emma-deleon.github.io/CommLab/js-events)  ✦ [Code](js-events)
+       - Lorem Event &#124; [Live](https://emma-deleon.github.io/CommLab/lorem-event)  ✦ [Code](lorem-event)
 
 ## Recitation Work
 

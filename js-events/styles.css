@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(232, 203, 203);
+}
+
+button {
+    background-color: white;
+    border: black 2px solid;
+    color: black;
+    box-shadow: 5px 10px #808080;
+    padding: 12px 32px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+button:hover {
+    background-color: rgb(225, 225, 225);
+    border: rgb(58, 6, 6) 2px solid;
+}
+
+button:active {
+    background-color: rgb(241, 212, 242);
+    color: black;
+}
+
+#reset {
+    background-color: black;
+    color: white;
+    border-color: white;
+    box-shadow: 5px 10px #7d7d7d;
+}
+
+#reset:hover {
+    background-color: rgb(54, 54, 54);
+    border: rgb(221, 221, 221) 2px solid;
+}
+
+#myRange {
+  appearance: none;
+  width: 20%; 
+  height: 20px; 
+  background: #ffffff; 
+  outline: black 2px solid;
+}
+::-webkit-slider-thumb {
+    appearance: none;
+    width: 40px;
+    height: 23px;
+    border-radius: 30%;
+    background: rgb(98, 83, 157);
+    cursor: pointer;
+}
