@@ -34,8 +34,13 @@ function summon() {
 
 // ------------- collide button -------------
 
-    // add animation classes
+
 function collide() {
+    // make button unclickable
+    let collideButton = document.querySelector(".col-x");
+    collideButton.classList.add("clicked");
+
+    // add animation classes
     let red = document.querySelector(".red");
     let blue = document.querySelector(".blue");
 
@@ -44,8 +49,8 @@ function collide() {
     console.log("Movement Classes Added");
 }
 
-    // detect collision
-        // (obtain positions of objects and compare)
+// detect collision
+    // --> obtain positions of objects and compare
 function detectCollision() {
     let red = document.querySelector(".red");
     let blue = document.querySelector(".blue");
@@ -122,7 +127,4 @@ function detectCollision() {
     //     b-width: bluePos.width,      // Element's width including padding
     //     b-height: bluePos.height     // Element's height including padding
     // });
-
-    let collideButton = document.querySelector(".col-x");
-    collideButton.classList.add("clicked");
 }
