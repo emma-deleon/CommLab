@@ -50,6 +50,9 @@ function detectCollision() {
     let red = document.querySelector(".red");
     let blue = document.querySelector(".blue");
 
+    let textBox = document.querySelector("#collision-bool-container");
+    textBox.style.width = "215px";
+
     function checkPositions() {
 
         // get latest positions
@@ -77,6 +80,8 @@ function detectCollision() {
             isColliding.style.fontWeight = "900";
             console.log("colliding");
 
+            textBox.style.width = "210px"
+
             } 
 
             else {
@@ -84,6 +89,7 @@ function detectCollision() {
                 isColliding.style.color = "red";
                 isColliding.style.fontWeight = "900";
                 console.log("NOT colliding");
+                textBox.style.width = "215px"
             }
     // updates animation and gets position again
         // info from: https://www.w3schools.com/jsref/met_win_requestanimationframe.asp

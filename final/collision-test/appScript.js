@@ -1,4 +1,11 @@
+let isVisible = document.querySelectorAll(".visibility");
+
+function toggleVisibiliy(ele) {
+    ele.style.display = "block";
+}
+
 function collideX() {
+    isVisible.forEach(toggleVisibiliy);
     let startButton = document.querySelector(".startX");
     startButton.classList.add("clicked");
 
@@ -22,6 +29,8 @@ function collideX() {
 }
 
 function collideXY() {
+    isVisible.forEach(toggleVisibiliy);
+
     let startButton = document.querySelector(".startXY");
     startButton.classList.add("clicked");
 

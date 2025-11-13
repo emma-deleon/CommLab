@@ -9,7 +9,7 @@ body {
 #collision-bool-container {
     position: absolute;
     z-index: 5;
-    width: 220px;
+    width: 200px;
     height: 30px;
     background-color: white;
     border: rgb(58, 6, 6) 2px solid;

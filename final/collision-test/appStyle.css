@@ -11,13 +11,27 @@
     height: 100px;
 }
 
+#goal {
+    width: 95px;
+    height: 95px;
+    outline: rgb(60, 39, 254) 4px dashed;
+    z-index: 10;
+    margin-left: auto;
+    pointer-events: none;
+    margin-right: 4px;
+}
+
+.visibility {
+    display: none;
+}
+
 .prey {
-    background-color: rgba(59, 239, 239, 0.767);
+    background-color: #e500a4c0;
 }
 
 .hunter {
     /* position: absolute; */
-    background-color: rgba(255, 0, 0, 0.515);
+    background-color: #18f400c0;
     left: -100px;
 }
 
@@ -35,11 +49,11 @@
 
 @keyframes chase {
     from {
-        transform: translateX(-300px);
+        transform: translateX(-400px);
     }
 
     to {
-        transform: translateX(calc(80vw - 200px));
+        transform: translateX(calc(80vw - 203px));
     }
 }
 
@@ -50,7 +64,7 @@
     }
 
     to {
-        transform: translateX(calc(80vw - 200px));
+        transform: translateX(calc(80vw - 202px));
     }
 }
 
@@ -62,43 +76,43 @@
         transform: translateX(0);
     }
     25% {
-        transform: translate(calc(20vw - 200px), 20vh);
+        transform: translate(calc(20vw - 200px), 31vh);
     }
     50% {
-        transform: translate(calc(40vw - 200px), -30vh);
+        transform: translate(calc(40vw - 200px), -31vh);
     }
     75% {
-        transform: translate(calc(60vw - 200px), 20vh);
+        transform: translate(calc(60vw - 200px), 31vh);
     }
     100% {
-        transform: translateX(calc(80vw - 200px));
+        transform: translateX(calc(80vw - 203px));
     }
 }
 
 @keyframes zig-zag-p {
-    /* 0% {
+    0% {
         transform: translateX(0);
-    } */
+    }
     25% {
-        transform: translate(calc(20vw - 200px), 20vh);
+        transform: translate(calc(20vw - 200px), 31vh);
     }
     50% {
-        transform: translate(calc(40vw - 200px), -30vh);
+        transform: translate(calc(40vw - 200px), -31vh);
     }
     75% {
-        transform: translate(calc(60vw - 200px), 20vh);
+        transform: translate(calc(60vw - 200px), 31vh);
     }
     100% {
-        transform: translateX(calc(80vw - 200px));
+        transform: translateX(calc(80vw - 202px));
     }
 }
 
 .zig-zag-h {
-    animation: zig-zag-h 10s 1 ease-in forwards;
+    animation: zig-zag-h 11s 1 ease-in-out forwards;
 }
 
 .zig-zag-p {
-    animation: zig-zag-p 6s 1 linear forwards;
+    animation: zig-zag-p 7.5s 1 linear forwards;
     animation-play-state: paused;
 }
 
