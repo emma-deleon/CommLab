@@ -100,21 +100,21 @@ function detectCollision() {
     // const bluePos = blue.getBoundingClientRect();
 
     // console.log({
-    //     top: redPos.top,          // Distance from viewport top
-    //     left: redPos.left,        // Distance from viewport left
-    //     bottom: redPos.bottom,    // Distance from viewport top to element bottom
-    //     right: redPos.right,      // Distance from viewport left to element right
-    //     width: redPos.width,      // Element's width including padding
-    //     height: redPos.height     // Element's height including padding
+    //     r-top: redPos.top,          // Distance from viewport top
+    //     r-left: redPos.left,        // Distance from viewport left
+    //     r-bottom: redPos.bottom,    // Distance from viewport top to element bottom
+    //     r-right: redPos.right,      // Distance from viewport left to element right
+    //     r-width: redPos.width,      // Element's width including padding
+    //     r-height: redPos.height     // Element's height including padding
     // });
 
     // console.log({
-    //     top: bluePos.top,          // Distance from viewport top
-    //     left: bluePos.left,        // Distance from viewport left
-    //     bottom: bluePos.bottom,    // Distance from viewport top to element bottom
-    //     right: bluePos.right,      // Distance from viewport left to element right
-    //     width: bluePos.width,      // Element's width including padding
-    //     height: bluePos.height     // Element's height including padding
+    //     b-top: bluePos.top,          // Distance from viewport top
+    //     b-left: bluePos.left,        // Distance from viewport left
+    //     b-bottom: bluePos.bottom,    // Distance from viewport top to element bottom
+    //     b-right: bluePos.right,      // Distance from viewport left to element right
+    //     b-width: bluePos.width,      // Element's width including padding
+    //     b-height: bluePos.height     // Element's height including padding
     // });
 
     let collideButton = document.querySelector(".col-x");

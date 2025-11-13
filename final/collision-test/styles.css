@@ -17,7 +17,7 @@ body {
     padding: 5px 10px;
     margin: 0;
     left: 8vw;
-    top: 13vh;
+    top: 15vh;
 }
 
 #collision-bool-container p {
@@ -39,6 +39,11 @@ main {
 
 }
 
+#background img {
+    width: 80vw;
+    height: 70vh;
+}
+
 .background-1 {
     position: absolute;
     z-index: 1;
@@ -57,10 +62,6 @@ main {
     opacity: .6;
 }
 
-#background img {
-    width: 80vw;
-    height: 70vh;
-}
 
 #main-content {
     background-color: gray;
@@ -83,6 +84,7 @@ main {
     width: 80%;
     height: 10vh;
     z-index: 2;
+    align-items: baseline;
 }
 
 button {
@@ -145,8 +147,12 @@ button:active {
     color: rgb(30, 66, 37);
 }
 
+.nextPage {
+    background-color: rgb(41, 8, 189);
+    border-color: rgb(8, 8, 100);
+}
 
-/* .test {
-    color: rgb(206, 0, 151);
-    color:rgb(0, 23, 196);
-} */
+.nextPage:hover {
+    background-color: rgb(90, 69, 183);
+    border-color: rgb(53, 53, 121);
+}
