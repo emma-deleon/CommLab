@@ -1,3 +1,4 @@
+/* general styling */
 body {
     background-color: black;
     margin: 0;
@@ -111,6 +112,8 @@ button:active {
 }
 
 
+
+/* movement animation */
 @keyframes moveRight {
     from {
         transform: translateX(0);
@@ -140,6 +143,8 @@ button:active {
 }
 
 
+
+/* additional button states */
 .clicked {
     pointer-events: none;
     background-color: rgb(69, 166, 12);

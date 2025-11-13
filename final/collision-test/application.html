@@ -11,19 +11,24 @@
 </head>
 <body>
 
+    <!-- upper left textbox -->
     <div id="collision-bool-container">
         <p><span class="highlight">Select Movement Type</span></p>
     </div>
 
     <main>
+        <!-- background grid textures -->
         <div id="background" class="background-1"><img src="img/distorted-grid.png" alt="grid"></div>
         <div id="background" class="background-2"><img src="img/distorted-grid.png" alt="grid"></div>
+
+        <!-- main container -->
         <div id="main-content">
             <div id="box" class="hunter visibility"></div>
             <div id="box" class="prey visibility"></div>
             <div id="goal" class="visibility"></div>
         </div>
 
+        <!-- buttons -->
         <div id="button-container">
             <a href="index.html"><button class="nextPage">Back</button></a>
             <button class="startX" onclick="collideX(), detectCollision()"">Left-Right</button>

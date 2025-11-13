@@ -1,3 +1,4 @@
+
 let isVisible = document.querySelectorAll(".visibility");
 
 function toggleVisibiliy(ele) {
@@ -5,13 +6,17 @@ function toggleVisibiliy(ele) {
 }
 
 function collideX() {
+    // make elements visible
     isVisible.forEach(toggleVisibiliy);
+
+    // active button state + grey out other button
     let startButton = document.querySelector(".startX");
     startButton.classList.add("clicked");
 
     let otherButton = document.querySelector(".startXY");
     otherButton.classList.add("grey");
 
+    // change size + style of instruction text box
     let textBox = document.querySelector("#collision-bool-container");
     textBox.style.width = "120px"
 
@@ -19,6 +24,7 @@ function collideX() {
     text.innerText = "Hover to Move";
     text.style.color = "blue";
 
+    // add movement classes to objects
     let hunter = document.querySelector(".hunter");
     let prey = document.querySelector(".prey");
 
@@ -29,14 +35,17 @@ function collideX() {
 }
 
 function collideXY() {
+    // make elements visible
     isVisible.forEach(toggleVisibiliy);
 
+    // active button state + grey out other button
     let startButton = document.querySelector(".startXY");
     startButton.classList.add("clicked");
 
     let otherButton = document.querySelector(".startX");
     otherButton.classList.add("grey");
 
+    // change size + style of instruction text box
     let textBox = document.querySelector("#collision-bool-container");
     textBox.style.width = "120px"
 
@@ -44,6 +53,7 @@ function collideXY() {
     text.innerText = "Hover to Move";
     text.style.color = "blue";
 
+    // add movement classes to objects
     let hunter = document.querySelector(".hunter");
     let prey = document.querySelector(".prey");
 
@@ -52,7 +62,7 @@ function collideXY() {
     console.log("Movement Classes Added");
 }
 
-    // detect collision
+// detect collision loop
 function detectCollision() {
 
     function checkPositions() {

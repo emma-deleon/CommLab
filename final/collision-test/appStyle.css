@@ -1,3 +1,4 @@
+/* general styling */
 #collision-bool-container {
     width: 180px;
 }
@@ -30,23 +31,13 @@
 }
 
 .hunter {
-    /* position: absolute; */
     background-color: #18f400c0;
     left: -100px;
 }
 
-.chase {
-    animation: chase 7s 1 linear forwards;
-}
 
-.run {
-    animation: run 5s 1 linear forwards;
-    animation-play-state: paused;
-}
-.run:hover {
-    animation-play-state: running;
-}
 
+/* for hunter */
 @keyframes chase {
     from {
         transform: translateX(-400px);
@@ -54,17 +45,6 @@
 
     to {
         transform: translateX(calc(80vw - 203px));
-    }
-}
-
-
-@keyframes run {
-    from {
-        transform: translateX(0);
-    }
-
-    to {
-        transform: translateX(calc(80vw - 202px));
     }
 }
 
@@ -89,6 +69,27 @@
     }
 }
 
+.chase {
+    animation: chase 7s 1 linear forwards;
+}
+
+.zig-zag-h {
+    animation: zig-zag-h 11s 1 ease-in-out forwards;
+}
+
+
+
+/* for prey */
+@keyframes run {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(80vw - 202px));
+    }
+}
+
 @keyframes zig-zag-p {
     0% {
         transform: translateX(0);
@@ -107,8 +108,12 @@
     }
 }
 
-.zig-zag-h {
-    animation: zig-zag-h 11s 1 ease-in-out forwards;
+.run {
+    animation: run 5s 1 linear forwards;
+    animation-play-state: paused;
+}
+.run:hover {
+    animation-play-state: running;
 }
 
 .zig-zag-p {
@@ -120,6 +125,9 @@
     animation-play-state: running;
 }
 
+
+
+/* additional button state */
 .grey {
     pointer-events: none;
     background-color: rgb(111, 111, 111);

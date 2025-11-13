@@ -9,22 +9,25 @@
 </head>
 <body>
 
+    <!-- upper left textbox -->
     <div id="collision-bool-container">
         <p><span class="highlight">Objects Colliding?</span> : <span id="is-colliding">N/A</span></p>
     </div>
 
     <main>
+         <!-- background grid textures -->
         <div id="background" class="background-1"><img src="img/distorted-grid.png" alt="grid"></div>
         <div id="background" class="background-2"><img src="img/distorted-grid.png" alt="grid"></div>
+
+        <!-- main container -->
         <div id="main-content"></div>
 
+        <!-- buttons -->
         <div id="button-container">
             <button class="summon" onclick="summon()">Summon Objects</button>
             <button class="col-x" onclick="collide(), detectCollision()"">Collide</button>
-
-            <!-- separate y collision not implemented yet -->
-            <!-- <button class="col-y" onclick="collide(), detectCollision()"">Collide Y</button> -->
-
+                <!-- separate y collision not implemented yet -->
+                <!-- <button class="col-y" onclick="collide(), detectCollision()"">Collide Y</button> -->
             <!-- refresh page -->
             <button onclick="window.location.reload();">Reset</button>
             <a href="application.html"><button class="nextPage">Next</button></a>
