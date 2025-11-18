@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    height: 100vh;
+    background-color: rgb(149, 133, 174);
+    background: 
+        linear-gradient(180deg, 
+        rgba(147, 116, 179, 1) 0%, 
+        rgba(247, 104, 104, 1) 49%, 
+        rgba(235, 175, 91, 1) 100%
+        );
+
+    color: white;
+    font-family: monospace;
+    font-weight: 900;
+
+    margin-top: 3em;
+}
+
+/* svg {
+    position: relative;
+}
+
+svg p {
+    position: absolute;
+    top: 20px;
+} */
+
+
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    box-shadow: rgb(80, 66, 104) 3px 5px 2px;
+    padding: 2px 32px;
+    font-family: monospace;
+}
+
+
+button:hover {
+    background-color: rgb(173, 157, 173);
+    border-color: rgb(95, 89, 95);
+}
+
+button:active {
+    background-color: rgb(178, 240, 164);
+}
+
+#output {
+    font-size: 2em;
+}
