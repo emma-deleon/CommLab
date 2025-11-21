@@ -61,9 +61,9 @@ Check out my work below ↓ ↓ ↓
 <!-- ![DOM Entropy screenshot](img/dom-ss.png) -->
 <img src="img/dom-ss.png" alt="dom entropy" width="200"/>
 
-### 6. JS Clocj  &#124; [Live](https://emma-deleon.github.io/CommLab/clock) ⋆˙⟡ [Code](clock)
+### 6. JS Clock  &#124; [Live](https://emma-deleon.github.io/CommLab/clock) ⋆˙⟡ [Code](clock)
 
-<img src="img/clock-ss.png" alt="dom entropy" width="200"/>
+<img src="img/clock-ss.png" alt="space clock" width="200"/>
 
 ## Projects
 
