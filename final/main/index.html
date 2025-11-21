@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Little Pigs | Start!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="upper-box">
+        <div id="animation" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">
+            <img id="pig1" class="pig" src="../imgs/straw-pig.svg" alt="straw pig" draggable="true" ondragstart="dragstartHandler(event)">
+            <img id="pig2" class="pig" src="../imgs/stick-pig.svg" alt="stick pig" draggable="true" ondragstart="dragstartHandler(event)">
+            <img id="pig3" class="pig" src="../imgs/brick-pig.svg" alt="brick pig" draggable="true" ondragstart="dragstartHandler(event)">
+            <img id="pig4" class="pig" src="../imgs/mom-pig.svg" alt="mom pig" draggable="false">
+        </div>
+        <div id="text-box"></div>
+    </div>
+    <div id="lower-box">
+        <div id="lower-box-top">
+            <div id="walkPig" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)"></div>
+            <img id="next-arrow" src="../imgs/orange-r-arrow.svg" alt="right arrow" draggable="false">
+        </div>
+        <input id="pigPosition" type="range" min="-200" max="600" value="0">
+    </div>
+</body>
+</html>
