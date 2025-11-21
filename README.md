@@ -20,17 +20,24 @@ Check out my work below ↓ ↓ ↓
 
 ### 4. CSS Tests  &#124; [Live](https://emma-deleon.github.io/CommLab/css-tests/)  ✦ [Code](css-tests)
    - CSS Layout 1  &#124; [Live](https://emma-deleon.github.io/CommLab/css-layout-1/)  ✦ [Code](css-layout-1)
+
    - CSS Layout 2  &#124; [Live](https://emma-deleon.github.io/CommLab/css-layout-2/)  ✦ [Code](css-layout-2)
+   
    - CSS Animations  &#124; [Live](https://emma-deleon.github.io/CommLab/css-animations/)  ✦ [Code](css-animations)
 
 ### 5. JavaScript Tests
    - Day 1  &#124; [Live](https://emma-deleon.github.io/CommLab/js1)  ✦ [Code](js1)
+
    - Day 2  &#124; [Live](https://emma-deleon.github.io/CommLab/js2)  ✦ [Code](js2)
+
    - Day 3  &#124; [Live](https://emma-deleon.github.io/CommLab/js3)  ✦ [Code](js3)
+
    - JavaScript Events  &#124; [Live](https://emma-deleon.github.io/CommLab/js-events)  ✦ [Code](js-events)
        - Lorem Event &#124; [Live](https://emma-deleon.github.io/CommLab/lorem-event)  ✦ [Code](lorem-event)
    - JavaScript Time Conditions  &#124; [Live](https://emma-deleon.github.io/CommLab/js-time-conditions)  ✦ [Code](js-time-conditions)
+
    - Web Sound &#124; [Live](https://emma-deleon.github.io/CommLab/web-sound)  ✦ [Code](web-sound)
+
    - Time &#124; [Live](https://emma-deleon.github.io/CommLab/js-datetime)  ✦ [Code](js-datetime)
 
 ## Recitation Work
@@ -73,7 +80,7 @@ Check out my work below ↓ ↓ ↓
 <img src="./project-1/img/readme/pg-two.png" alt="shanzai web" width="300"/>
 
 ### 2. Final
-wip
+wip !
 
 ## Other
 

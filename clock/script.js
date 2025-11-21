@@ -46,7 +46,7 @@ bgAudio.loop = true;
 
 secondSound.volume = .2; //.2
 minuteSound.volume = .4; // .4
-hourSound.volume = .4; // .4
+hourSound.volume = .2; // .4
 
 bgAudioButton.addEventListener("click", function () {
     buttonPressCount += 1;
@@ -76,7 +76,7 @@ sfxButton.addEventListener("click", function () {
     else {
         secondSound.volume = .2; 
         minuteSound.volume = .4; 
-        hourSound.volume = .4; 
+        hourSound.volume = .2; 
     }
 })
 
@@ -173,6 +173,8 @@ function getTheTime() {
         hourSound.play();
     }
 
+
+
     // -----------------------------------
 
 
@@ -192,9 +194,9 @@ function getTheTime() {
         minutesRocket.style.transform = "rotate(" + degrees + "deg)";
         // minuteSound.play();
 
-        if (s == 0) {
+        if (s == 0 && m != 0) {
             minuteSound.play();
-        }
+        } 
 
     }
 
