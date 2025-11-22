@@ -182,7 +182,7 @@ function getTheTime() {
     // -------------- minutes --------------
     moveMinutes();
     function moveMinutes() {
-        const degrees = (s * 6) - 90; // 1 min = 6 deg (360/60); -90 to start at 0/12 position
+        const degrees = (m * 6) - 90; // 1 min = 6 deg (360/60); -90 to start at 0/12 position
         const radians = degrees * (Math.PI / 180);
 
         const x = centerX + pathRadius * Math.cos(radians);
