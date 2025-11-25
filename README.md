@@ -81,7 +81,7 @@ Check out my work below ↓ ↓ ↓
 <!-- ![project_1_ss](./project-1/img/readme/pg-two.png) -->
 <img src="./project-1/img/readme/pg-two.png" alt="shanzai web" width="300"/>
 
-### 2. Final &#124; [Live](https://emma-deleon.github.io/CommLab/final-1/) ⋆˙⟡ [Code](final/main)
+### 2. Final &#124; [Live](https://emma-deleon.github.io/CommLab/final-1/main) ⋆˙⟡ [Code](final/main)
 
 🚧 _under construction !_ 🚧
 
