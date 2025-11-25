@@ -1,80 +1,146 @@
-// testing 
+// sound effects 
+// var clickSound = document.querySelector("#click");
+var mDownSound = document.querySelector("#mDown");
+var mUpSound = document.querySelector("#mUp");
+var errorSound = document.querySelector("#error");
+var newEleSound = document.querySelector("#newEle");
+var bgm = document.querySelector("#bgm");
 
-// let test = document.querySelector("#button");
+let errorItem = document.querySelectorAll(".error");
 
-// test.addEventListener("click", changeColor);
-
-// let count = 0;
-// function changeColor() {
-//     count +=1;
-//     if (count%2 == 0){
-//         document.body.style.backgroundColor = "cadetblue";
-//     }
-//     else {
-//         document.body.style.backgroundColor = "black";
-//     }
-// }
-
-// -------------------------------------------------------------
-
-// page 2: 
-// drag and drop pig
-// from:https://www.w3schools.com/html/html5_draganddrop.asp
-function dragstartHandler(ev) {
-  ev.dataTransfer.setData("text", ev.target.id);
-}
-
-function dragoverHandler(ev) {
-  ev.preventDefault();
-}
-
-function dropHandler(ev) {
-  ev.preventDefault();
-  const data = ev.dataTransfer.getData("text");
-  ev.target.appendChild(document.getElementById(data));
-}
+// clickSound.volume = .3;
+mDownSound.volume = .1;
+mUpSound.volume = .3;
+newEleSound.volume = .8;
+errorSound.volume = .3;
+bgm.volume = 0;
 
 
-//moving pig
+document.body.addEventListener('mousedown', function() {
+    mDownSound.currentTime = 0;
+    mDownSound.play();
+});
+document.body.addEventListener('touchstart', function() {
+    mDownSound.currentTime = 0;
+    mDownSound.play();
+});
 
-let pigPositionRange = document.querySelector("#pigPosition");
-let drawPig = document.querySelector("#walkPig");
+document.body.addEventListener('mouseup', function() {
+    mUpSound.currentTime = 0;
+    mUpSound.play();
+});
+document.body.addEventListener('touchend', function() {
+    mUpSound.currentTime = 0;
+    mUpSound.play();
+});
 
-pigPositionRange.addEventListener("input", movePig);
+errorItem.forEach(e => {
+    e.addEventListener('click', function() {
+        errorSound.currentTime = 0;
+        errorSound.play();
+    })
+});
 
-function movePig(e){
-    drawPig.style.transform = "translateX(" + e.target.value + "px)";
-}
 
-// detect collision
-goNext();
-function goNext() {
-    let selectedPig = document.querySelector("#walkPig");
-    let arrow = document.querySelector("#next-arrow");
+// volume controls
+let volumeIcon = document.querySelector(".volumeIcon");
 
-    function checkPositions() {
-        const pigPos = selectedPig.getBoundingClientRect();
-        const arrowPos = arrow.getBoundingClientRect();
+volumeIcon.addEventListener("click", adjustVolume);
 
-        if (
-            pigPos.right >= arrowPos.left && 
-            pigPos.left <= arrowPos.right
 
-        
-        ) {
-            // console.log("colliding");
-            arrow.remove();
-            window.location.href = 'page-2.html';
-            pigPositionRange.reset();
-
-            } 
-
-            else {
-                // console.log("NOT colliding");
-            }
-    requestAnimationFrame(checkPositions);
+let count = 0;
+function adjustVolume() {
+    count +=1;
+    if (count == 1) {
+        bgm.play();
+        bgm.loop = true;
     }
 
-    // loop by calling function again
-    checkPositions();
+    if (count%4 == 0){
+        document.querySelector(".volumeIcon").src = "../imgs/muted.svg"
+        bgm.volume = 0;
+        bgm.pause();
+    } else if (count%4 == 1) {
+        document.querySelector(".volumeIcon").src = "../imgs/vol-1.svg"
+        bgm.volume = .1;
+        bgm.play();
+    } else if (count%4 == 2) {
+        document.querySelector(".volumeIcon").src = "../imgs/vol-2.svg"
+        bgm.volume = .2;
+    } else if (count%4 == 3) {
+        document.querySelector(".volumeIcon").src = "../imgs/vol-3.svg"
+        bgm.volume = .3;
+    }
 }
+
+
+let desktop = document.querySelector("#desktop");
+
+let zCounter = 4;
+
+function activateWindow(win) {
+    win.style.zIndex = ++zCounter;
+
+    // Remove active from all windows
+    document.querySelectorAll('.window').forEach(ele => {
+        ele.classList.remove("active");
+    });
+
+    // Make this one active + visible
+    win.classList.add("active");
+    win.style.display = "flex";
+}
+
+desktop.addEventListener("click", function (tab) {
+    const clickedElement = tab.target.closest(".window");
+    if (!clickedElement) return;
+    activateWindow(clickedElement);
+});
+
+let startBtn = document.querySelector(".start-button");
+let strawBtn = document.querySelector("#straw-button");
+let stickBtn = document.querySelector("#stick-button");
+let brickBtn = document.querySelector("#brick-button");
+let divider = document.querySelector("#divider");
+
+let startWin = document.querySelector("#one");
+let strawWin = document.querySelector("#two");
+let stickWin = document.querySelector("#three");
+let brickWin = document.querySelector("#four");
+
+startBtn.addEventListener("click", () => activateWindow(startWin));
+strawBtn.addEventListener("click", () => activateWindow(strawWin));
+stickBtn.addEventListener("click", () => activateWindow(stickWin));
+brickBtn.addEventListener("click", () => activateWindow(brickWin));
+
+
+startBtn.addEventListener("click", function () {
+    // strawBtn.style.display = "flex";
+    // stickBtn.style.display = "flex";
+    // brickBtn.style.display = "flex";
+    // divider.style.display = "flex";
+})
+
+let currentDate = document.querySelector(".date");
+let currentTime = document.querySelector(".time");
+
+function getTheTime() {
+    let now = new Date();
+
+    let date = now.toLocaleString('en-US', {
+        weekday: 'short',   
+        month: 'short',     
+        day: '2-digit',     
+    }).replace(/,/g, '').trim();
+
+    let time = now.toLocaleString('en-US', {
+        hour: '2-digit', 
+        minute: '2-digit',
+        hour12: false
+    });
+
+    currentDate.innerText = date;
+    currentTime.innerText = time;
+}
+
+setInterval(getTheTime, 100);

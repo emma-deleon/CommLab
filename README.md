@@ -40,6 +40,8 @@ Check out my work below ↓ ↓ ↓
 
    - Time &#124; [Live](https://emma-deleon.github.io/CommLab/js-datetime)  ✦ [Code](js-datetime)
 
+   - Scroll &#124; [Live](https://emma-deleon.github.io/CommLab/scroll-thresholds)  ✦ [Code](scroll-thresholds)
+
 ## Recitation Work
 
 ### 1. [A Journey Through Sheets](https://docs.google.com/spreadsheets/d/1_nVe2Vzv9B2lLLGR55wGwcTeC2Y_hEOeWUVS6tyvbAY/edit?usp=sharing)
@@ -79,8 +81,10 @@ Check out my work below ↓ ↓ ↓
 <!-- ![project_1_ss](./project-1/img/readme/pg-two.png) -->
 <img src="./project-1/img/readme/pg-two.png" alt="shanzai web" width="300"/>
 
-### 2. Final
-wip !
+### 2. Final &#124; [Live](https://emma-deleon.github.io/CommLab/final-1/) ⋆˙⟡ [Code](final/main)
+
+🚧 _under construction !_ 🚧
+
 
 ## Other
 

@@ -1,28 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3 Little Pigs | Start!</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <script src="start.js" defer></script>
+    <!-- <script src="houseBuilding.js" defer></script> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 </head>
+
 <body>
-    <div id="upper-box">
-        <div id="animation" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">
-            <img id="pig1" class="pig" src="../imgs/straw-pig.svg" alt="straw pig" draggable="true" ondragstart="dragstartHandler(event)">
-            <img id="pig2" class="pig" src="../imgs/stick-pig.svg" alt="stick pig" draggable="true" ondragstart="dragstartHandler(event)">
-            <img id="pig3" class="pig" src="../imgs/brick-pig.svg" alt="brick pig" draggable="true" ondragstart="dragstartHandler(event)">
-            <img id="pig4" class="pig" src="../imgs/mom-pig.svg" alt="mom pig" draggable="false">
-        </div>
-        <div id="text-box"></div>
+    <!-- audios  -->
+    <!-- <audio id="click" preload="auto" src="../audio/click.wav"></audio> -->
+    <audio id="mDown" preload="auto" src="../audio/mDown.wav"></audio>
+    <audio id="mUp" preload="auto" src="../audio/mUp.wav"></audio>
+    <audio id="error" preload="auto" src="../audio/error.wav"></audio>
+    <audio id="newEle" preload="auto" src="../audio/newEle.mp3"></audio>
+    <audio id="bgm" preload="auto" src="../audio/watayuki-memory.mp3"></audio>
+
+    <!-- main -->
+    <div id="background">
+        <img class="flowers" src="../imgs/flower-field.png" alt="flower field background" draggable="false">
+        <div class="solid-bg"></div>
     </div>
-    <div id="lower-box">
-        <div id="lower-box-top">
-            <div id="walkPig" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)"></div>
-            <img id="next-arrow" src="../imgs/orange-r-arrow.svg" alt="right arrow" draggable="false">
+    <div id="desktop">
+        <div class="window" id="one">
+            <div class="window-bar">
+                <div class="window-bar-left">
+                    <div class="square"></div>
+                    <p>START</p>
+                </div>
+                <div class="window-bar-right">
+                    <img class="error" src="../imgs/_minimize.svg" alt="minimize">
+                    <img class="error" src="../imgs/fullScreen.svg" alt="full screen">
+                    <img class="error" src="../imgs/xClose.svg" alt="close">
+                </div>
+            </div>
+            <div class="start">
+                <div id="upper-box">
+                    <div id="animation" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">
+                        <img id="pig1" class="pig" src="../imgs/straw-pig.svg" alt="straw pig" draggable="true"
+                            ondragstart="dragstartHandler(event)">
+                        <img id="pig2" class="pig" src="../imgs/stick-pig.svg" alt="stick pig" draggable="true"
+                            ondragstart="dragstartHandler(event)">
+                        <img id="pig3" class="pig" src="../imgs/brick-pig.svg" alt="brick pig" draggable="true"
+                            ondragstart="dragstartHandler(event)">
+                        <img id="pig4" class="pig error" src="../imgs/mom-pig.svg" alt="mom pig" draggable="false">
+                    </div>
+                    <div id="text-box"></div>
+                </div>
+                <div id="lower-box">
+                    <div id="lower-box-top">
+                        <div id="walkPig" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">
+                            <div class="pig-container"></div>
+                        </div>
+                        <img id="next-arrow" src="../imgs/orange-r-arrow.svg" alt="right arrow" draggable="false">
+                    </div>
+                    <input class="slider" id="pigPosition" type="range" min="-400" max="300" value="-110">
+                </div>
+            </div>
+            <div class="hint">
+                <p><span class="darker"><b>hint!</b> :</span> drag and drop <span class="darker"><u>one</u></span> pig at a time onto the brown spot. hit the <span class="darker">"<u>START</u>"</span> button to reset the arrow.</p>
+            </div>
         </div>
-        <input id="pigPosition" type="range" min="-200" max="600" value="0">
+        <div class="window" id="two">
+            <div class="window-bar">
+                <div class="window-bar-left">
+                    <div class="square"></div>
+                    <p>STRAW</p>
+                </div>
+                <div class="window-bar-right">
+                    <img class="error" src="../imgs/_minimize.svg" alt="minimize">
+                    <img class="error" src="../imgs/fullScreen.svg" alt="full screen">
+                    <img class="error" src="../imgs/xClose.svg" alt="close">
+                </div>
+            </div>
+            <div class="straw">
+                <!-- content -->
+            </div>
+        </div>
+        <div class="window" id="three">
+            <div class="window-bar">
+                <div class="window-bar-left">
+                    <div class="square"></div>
+                    <p>STICK</p>
+                </div>
+                <div class="window-bar-right">
+                    <img class="error" src="../imgs/_minimize.svg" alt="minimize">
+                    <img class="error" src="../imgs/fullScreen.svg" alt="full screen">
+                    <img class="error" src="../imgs/xClose.svg" alt="close">
+                </div>
+            </div>
+            <div class="stick">
+                <!-- content -->
+            </div>
+        </div>
+        <div class="window" id="four">
+            <div class="window-bar">
+                <div class="window-bar-left">
+                    <div class="square"></div>
+                    <p>BRICK</p>
+                </div>
+                <div class="window-bar-right">
+                    <img class="error" src="../imgs/_minimize.svg" alt="minimize">
+                    <img class="error" src="../imgs/fullScreen.svg" alt="full screen">
+                    <img class="error" src="../imgs/xClose.svg" alt="close">
+                </div>
+            </div>
+            <div class="brick">
+                <!-- content -->
+            </div>
+        </div>
     </div>
+    <div id="taskbar">
+        <div id="taskbar-left">
+            <div class=" start-button">
+                <img class="pig-icon" src="../imgs/pigIconColoredBlue.svg" alt="pig icon" draggable="false">
+                START
+            </div>
+            <div id="divider" class="start-button"></div>
+            <div id="straw-button" class="task-button">
+                <img src="../imgs/houseIcon.svg" alt="house icon draggable="false">
+                STRAW
+            </div>
+            <div id="stick-button" class="task-button">
+                <img src="../imgs/houseIcon.svg" alt="house icon" draggable="false">
+                STICK
+            </div>
+            <div id="brick-button" class="task-button">
+                <img src="../imgs/houseIcon.svg" alt="house icon" draggable="false">
+                BRICK
+            </div>
+        </div>
+        <div id="taskbar-right">
+            <img class="volumeIcon" src="../imgs/muted.svg" alt="volume" draggable="false">
+            <div id="date-time">
+                <p class="date"></p>
+                <p class="time"></p>
+            </div>
+        </div>
+    </div>
+    <!-- <div id=" background">
+        <img src="../imgs/pastel-city-bg.svg" alt="">
+    </div> -->
+
 </body>
+
 </html>
