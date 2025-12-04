@@ -11,31 +11,23 @@ let errorItem = document.querySelectorAll(".error");
 // clickSound.volume = .3;
 mDownSound.volume = .1;
 mUpSound.volume = .3;
-newEleSound.volume = .8;
-errorSound.volume = .3;
+newEleSound.volume = .55;
+errorSound.volume = .25;
 bgm.volume = 0;
 
 
-document.body.addEventListener('mousedown', function() {
-    mDownSound.currentTime = 0;
-    mDownSound.play();
-});
-document.body.addEventListener('touchstart', function() {
+document.body.addEventListener("pointerdown", function() {
     mDownSound.currentTime = 0;
     mDownSound.play();
 });
 
-document.body.addEventListener('mouseup', function() {
-    mUpSound.currentTime = 0;
-    mUpSound.play();
-});
-document.body.addEventListener('touchend', function() {
+document.body.addEventListener("pointerup" , function() {
     mUpSound.currentTime = 0;
     mUpSound.play();
 });
 
 errorItem.forEach(e => {
-    e.addEventListener('click', function() {
+    e.addEventListener("pointerdown", function() {
         errorSound.currentTime = 0;
         errorSound.play();
     })
@@ -114,12 +106,6 @@ stickBtn.addEventListener("click", () => activateWindow(stickWin));
 brickBtn.addEventListener("click", () => activateWindow(brickWin));
 
 
-startBtn.addEventListener("click", function () {
-    // strawBtn.style.display = "flex";
-    // stickBtn.style.display = "flex";
-    // brickBtn.style.display = "flex";
-    // divider.style.display = "flex";
-})
 
 let currentDate = document.querySelector(".date");
 let currentTime = document.querySelector(".time");

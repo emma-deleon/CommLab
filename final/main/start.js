@@ -86,8 +86,7 @@ function goNext() {
                     // delay(nextArrow);
 
                     resetSlider = true;
-                    pigPositionRange.addEventListener("mouseup", tryResetSlider);
-                    pigPositionRange.addEventListener("touchend", tryResetSlider);
+                    pigPositionRange.addEventListener("pointerup", tryResetSlider);
 
                     // console.log("Straw Pig selected");
 
@@ -105,8 +104,7 @@ function goNext() {
                     // delay(nextArrow);
 
                     resetSlider = true;
-                    pigPositionRange.addEventListener("mouseup", tryResetSlider);
-                    pigPositionRange.addEventListener("touchend", tryResetSlider);
+                    pigPositionRange.addEventListener("pointerup", tryResetSlider);
                     
                     
                     
@@ -126,8 +124,7 @@ function goNext() {
                     // delay(nextArrow);
 
                     resetSlider = true;
-                    pigPositionRange.addEventListener("mouseup", tryResetSlider);
-                    pigPositionRange.addEventListener("touchend", tryResetSlider);
+                    pigPositionRange.addEventListener("pointerup", tryResetSlider);
                     
                     
                     

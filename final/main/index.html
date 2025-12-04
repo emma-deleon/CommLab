@@ -4,11 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3 Little Pigs | Start!</title>
+    <title>3 Little Pigs</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="house-style.css">
+    <link rel="stylesheet" href="house-building-2.css">
+    
     <script src="script.js" defer></script>
     <script src="start.js" defer></script>
-    <!-- <script src="houseBuilding.js" defer></script> -->
+    <script src="houseBuilding.js" defer></script>
+    <script src="building2.js" defer></script>
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,14 +71,15 @@
                 </div>
             </div>
             <div class="hint">
-                <p><span class="darker"><b>hint!</b> :</span> drag and drop <span class="darker"><u>one</u></span> pig at a time onto the brown spot. hit the <span class="darker">"<u>START</u>"</span> button to reset the arrow.</p>
+                <p><span class="darker"><b>hint!</b> :</span> drag and drop <span class="darker"><u>one</u></span> pig
+                    at a time onto the brown spot.</p>
             </div>
         </div>
         <div class="window" id="two">
             <div class="window-bar">
                 <div class="window-bar-left">
                     <div class="square"></div>
-                    <p>STRAW</p>
+                    <p class="straw-title">???</p>
                 </div>
                 <div class="window-bar-right">
                     <img class="error" src="../imgs/minimize.svg" alt="minimize">
@@ -82,14 +88,39 @@
                 </div>
             </div>
             <div class="straw">
-                <!-- content -->
+
+                <div class="straw-1">
+                    <div class="material-select straw-select">
+                        <div class="straw-container">
+                            <img class="strawSelect straw-straw" src="../imgs/straw.gif" alt="straw">
+                            <img class="stickSelect straw-stick error" src="../imgs/sticks.gif" alt="sticks">
+                            <img class="brickSelect straw-brick error" src="../imgs/bricks.gif" alt="bricks">
+                        </div>
+                    </div>
+                    <div class="material-straw-pig-container">
+                        <img src="../imgs/straw-pig.svg" alt="straw pig">
+                    </div>
+                </div>
+
+                <div class="straw-2">
+                    <img class="straw-house" src="../imgs/straw-house.svg" alt="straw house">
+                </div>
+
+                <div class="straw-3">
+                    placeholder
+                </div>
+
+
+            </div>
+            <div class="material-hint">
+                <p class="straw-hint"><i>What should I use to build my house?</i></p>
             </div>
         </div>
         <div class="window" id="three">
             <div class="window-bar">
                 <div class="window-bar-left">
                     <div class="square"></div>
-                    <p>STICK</p>
+                    <p class="stick-title">???</p>
                 </div>
                 <div class="window-bar-right">
                     <img class="error" src="../imgs/minimize.svg" alt="minimize">
@@ -98,14 +129,38 @@
                 </div>
             </div>
             <div class="stick">
-                <!-- content -->
+
+                <div class="stick-1">
+                    <div class="material-select stick-select">
+                        <div class="stick-container">
+                            <img class="strawSelect stick-straw error" src="../imgs/straw.gif" alt="straw">
+                            <img class="stickSelect stick-stick" src="../imgs/sticks.gif" alt="sticks">
+                            <img class="brickSelect stick-brick error" src="../imgs/bricks.gif" alt="bricks">
+                        </div>
+                    </div>
+                    <div class="material-stick-pig-container">
+                        <img src="../imgs/stick-pig.svg" alt="straw pig">
+                    </div>
+                </div>
+
+                <div class="stick-2">
+                    <img class="stick-house" src="../imgs/stick-house.svg" alt="stick house">
+                </div>
+
+                <div class="stick-3">
+                    placeholder
+                </div>
+
+            </div>
+            <div class="material-hint">
+                <p class="stick-hint"><i>What should I use to build my house?</i></p>
             </div>
         </div>
         <div class="window" id="four">
             <div class="window-bar">
                 <div class="window-bar-left">
                     <div class="square"></div>
-                    <p>BRICK</p>
+                    <p class="brick-title">???</p>
                 </div>
                 <div class="window-bar-right">
                     <img class="error" src="../imgs/minimize.svg" alt="minimize">
@@ -114,7 +169,31 @@
                 </div>
             </div>
             <div class="brick">
-                <!-- content -->
+
+                <div class="brick-1">
+                <div class="material-select brick-select">
+                    <div class="brick-container">
+                        <img class="strawSelect brick-straw error" src="../imgs/straw.gif" alt="straw">
+                        <img class="stickSelect brick-stick error" src="../imgs/sticks.gif" alt="sticks">
+                        <img class="brickSelect brick-brick" src="../imgs/bricks.gif" alt="bricks">
+                    </div>
+                </div>
+                <div class="material-brick-pig-container">
+                    <img src="../imgs/brick-pig.svg" alt="straw pig">
+                </div>
+                </div>
+
+                <div class="brick-2">
+                    <img class="brick-house" src="../imgs/brick-house.svg" alt="brick house">
+                </div>
+
+                <div class="brick-3">
+                    placeholder
+                </div>
+
+            </div>
+            <div class="material-hint">
+                <p class="brick-hint"><i>What should I use to build my house?</i></p>
             </div>
         </div>
     </div>
@@ -126,16 +205,16 @@
             </div>
             <div id="divider" class="start-button"></div>
             <div id="straw-button" class="task-button">
-                <img src="../imgs/houseIcon.svg" alt="house icon draggable="false">
-                STRAW
+                <img src="../imgs/houseIcon.svg" alt="house icon draggable=" false">
+                <p class="straw-button-text">???</p>
             </div>
             <div id="stick-button" class="task-button">
                 <img src="../imgs/houseIcon.svg" alt="house icon" draggable="false">
-                STICK
+                <p class="stick-button-text">???</p>
             </div>
             <div id="brick-button" class="task-button">
                 <img src="../imgs/houseIcon.svg" alt="house icon" draggable="false">
-                BRICK
+                <p class="brick-button-text">???</p>
             </div>
         </div>
         <div id="taskbar-right">

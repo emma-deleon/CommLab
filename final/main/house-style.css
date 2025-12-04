@@ -1,0 +1,107 @@
+.material-select img {
+    width: 50px;
+}
+
+.material-select img:hover {
+    width: 55px;
+}
+
+.material-select {
+    gap: 30px;
+}
+
+.straw-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.straw-container img {
+    cursor: url(../imgs/pig-cursor-pointer-64.svg), auto;
+}
+
+.stick-select {
+    justify-content: center;
+    align-items: center;
+    /* margin: 5% 20%; */
+
+    /* padding-bottom: 400px; */
+}
+
+.stick-container {
+    display: flex;
+    gap: 40px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.stick-container img {
+    cursor: url(../imgs/pig-cursor-pointer-64.svg), auto;
+}
+
+.brick-select {
+    margin-top: 10%;
+    margin-right: 10%;
+    /* border: blue 2px solid; */
+    display: flex;
+    float: right;
+}
+
+.brick-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* gap: 50px; */
+
+    /* border: red 2px solid; */
+}
+
+.material-straw-pig-container img {
+    width: 100px;
+}
+
+.material-straw-pig-container {
+    position: absolute;
+    bottom: 38%;
+    float:right;
+    right:25%;
+}
+
+.material-stick-pig-container img {
+    width: 100px;
+}
+
+.material-stick-pig-container {
+    position: absolute;
+    left: 42%;
+    bottom: 10%;
+}
+
+.material-brick-pig-container img {
+    width: 100px;
+}
+
+.material-brick-pig-container {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.material-hint {
+    font-size: .8em;
+    margin-left: 2%;
+}
+
+.straw-2 {
+    display: none;
+}
+
+.stick-2 {
+    display: none;
+}
+
+.brick-2 {
+    display: none;
+}

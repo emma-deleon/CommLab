@@ -3,8 +3,11 @@
     cursor: url(../imgs/paw.svg) 12 12, auto;
 } */
 
+/* font */
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 
+
+/* color variables */
 :root {
     --text-blue: hsl(250, 85%, 45%);
     --accent-pink: hsl(323, 52%, 95%);
@@ -24,7 +27,9 @@ body {
     overflow: hidden;
     height: 100vh;
     margin: 0;
-    background: repeat-y center/100% url("../imgs/pastel-city-bg.svg");
+    /* background: repeat-y center/100% url("../imgs/pastel-city-bg.svg"); */
+    background: repeat-y center/100% url("../imgs/pastel-city-edited.svg");
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -305,6 +310,7 @@ body {
     overflow: scroll;
     /* scrollbar-color: red orange; */
     scrollbar-width: none;
+    /* cursor: url(../imgs/pig-cursor-default.svg), auto; */
 }
 
 
@@ -313,26 +319,43 @@ body {
     width: 96%;
     height: 85%;
     outline: var(--text-blue) 1px solid;
-    background-color: var(--inactive-bar);
     padding: 0 5px;
+    background-color: bisque;
+    cursor: url(../imgs/pig-cursor-default.svg), auto;
+    background-image: url("../imgs/grass-tile.png");
+    background-size: 30%;
+    background-repeat: repeat;
+    overflow: scroll;
+    display: flex;
+    align-items: center;
 }
 
-.active > .straw {
-    background-color: var(--active-pink);
+.straw::-webkit-scrollbar {
+  display: none;
 }
+
+
 
 
 .stick {
     width: 96%;
     height: 85%;
     outline: var(--text-blue) 1px solid;
-    background-color: var(--inactive-bar);
     padding: 0 5px;
+    background-color: bisque;
+    cursor: url(../imgs/pig-cursor-default.svg), auto;
+    background-image: url("../imgs/grass-tile.png");
+    background-size: 30%;
+    background-repeat: repeat;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
 }
 
-.active > .stick {
-    background-color: var(--active-pink);
+.stick::-webkit-scrollbar {
+  display: none;
 }
+
 
 
 .brick {
@@ -341,14 +364,18 @@ body {
     outline: var(--text-blue) 1px solid;
     background-color: var(--inactive-bar);
     padding: 0 5px;
+     background-color: bisque;
+    cursor: url(../imgs/pig-cursor-default.svg), auto;
+    background-image: url("../imgs/grass-tile.png");
+    background-size: 30%;
+    background-repeat: repeat;
+    overflow: scroll;
+    align-items: center;
 }
 
-.active > .brick {
-    background-color: var(--active-pink);
+.brick::-webkit-scrollbar {
+  display: none;
 }
-
-
-
 
 
 
@@ -356,6 +383,10 @@ body {
     width: 5em;
     filter: drop-shadow(10px 5px 1px rgba(0, 0, 0, 0.6));
     z-index: 20;
+}
+
+.error:active{
+    animation: shake .2s linear 1;
 }
 
 @keyframes shake {

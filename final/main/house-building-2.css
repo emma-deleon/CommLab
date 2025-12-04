@@ -1,0 +1,55 @@
+/* body {
+    background-image: none;
+} */
+
+main {
+    width: 80%;
+    height: 100%;
+    /* margin-bottom: 20%; */
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.temporary-container {
+    background-color: bisque;
+    width: 96%;
+    height: 85%;
+}
+
+
+.straw-house {
+    opacity: 0.3;
+    width: 65px;
+}
+
+
+
+.stick-house {
+    opacity: .2;
+    width: 80px;
+}
+
+
+
+.brick-house {
+    opacity: .2;
+    width: 100px;
+    display: flex;
+    float: right;
+    margin-top: 10%;
+    margin-right: 7%;
+}
+
+.straw-3 {
+    display: none;
+}
+
+.stick-3 {
+    display: none;
+}
+
+.brick-3 {
+    display: none;
+}
+
